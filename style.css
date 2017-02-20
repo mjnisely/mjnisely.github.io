@@ -19,3 +19,18 @@ a:visited {
   color: rgb(45, 89, 134);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+nav {
+  float: left;
+  max-width: 120px;
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul a {
+  text-decoration: none;
+}
+p.small{
+  line-height: 10px;
+}
