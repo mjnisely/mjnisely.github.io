@@ -11,7 +11,11 @@ p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-li {
+a:link {
+  color: #747687;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a:visited {
   color: #747687;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
