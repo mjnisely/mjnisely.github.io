@@ -34,6 +34,6 @@ nav ul a {
 p.small{
   line-height: 10px;
 }
-tr:hover td {
+td:hover {
   color: rgb(121, 166, 210)
 }
