@@ -12,7 +12,7 @@ p {
 }
 
 a:link {
-  color: #b3cce6;
+  color: rgb(121, 166, 210);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 a:visited {
