@@ -7,15 +7,15 @@ h1 {
   Font-Family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 p {
-  color: #A5CED1;
+  color: (115,115,115);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 a:link {
-  color: #A5CED1;
+  color: #b3cce6;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 a:visited {
-  color: #747687;
+  color: #336699;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
