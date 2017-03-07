@@ -29,6 +29,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   width: 200px;
+  height: 100%;
   background-color: #f1f1f1;
 }
 nav ul a {
