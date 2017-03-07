@@ -20,8 +20,8 @@ a:visited {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 nav {
-  margin: 10;
-  padding: 0px 10px;
+  margin: 0;
+  padding: 0px 0px;
   height: 100%;
   position: fixed;
 }
