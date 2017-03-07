@@ -21,13 +21,13 @@ a:visited {
 }
 nav {
   margin-bottom: 50px;
-  margin-top: 0px;
+  margin-top: 10px;
   height: 100%;
   position: fixed;
 }
 nav ul {
   list-style-type: none;
-  width: 200px;
+  width: 100px;
   height: 100%;
   background-color: #f1f1f1;
 }
