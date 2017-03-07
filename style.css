@@ -20,16 +20,16 @@ a:visited {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 nav {
-  float: left;
+  float: right;
   margin: 0;
   padding: 0px;
   height: 100%;
   position: fixed;
 }
 nav ul {
-  float: left;
+  float: right;
   list-style-type: none;
-  padding: 15px;
+  padding: 1px;
   width: 200px;
   height: 100%;
   background-color: #f1f1f1;
