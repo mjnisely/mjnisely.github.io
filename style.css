@@ -20,6 +20,7 @@ a:visited {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 nav {
+  float: left;
   margin: 0;
   padding: 0px 0px;
   height: 100%;
