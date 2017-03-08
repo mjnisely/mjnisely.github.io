@@ -41,7 +41,7 @@ nav {
 nav ul {
   margin: 0;
   padding-top: 150px;
-  padding-left: 3px;  
+  padding-left: 3px;
   list-style-type: none;
   width: 125px;
   height: 100%;
@@ -53,10 +53,7 @@ nav ul a {
 li {
   line-height: 25px;
   text-align: left;
-  border-bottom: 1px solid #555;
-}
-li a:first-child {
-  border-top: 1 px solid #555;
+  border: 1px solid #555;
 }
 li a {
   display: block;
