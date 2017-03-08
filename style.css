@@ -51,7 +51,7 @@ nav ul a {
 }
 li {
   line-height: 25px;
-  left-padding: 3px;
+  padding-left: 3px;
   text-align: left;
   border-top: 1px solid #555;
 }
