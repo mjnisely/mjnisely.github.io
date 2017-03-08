@@ -51,7 +51,6 @@ nav ul a {
 }
 li {
   line-height: 25px;
-  padding-left: 3px;
   text-align: left;
   border-top: 1px solid #555;
 }
@@ -62,6 +61,7 @@ li a {
   display: block;
   color: #000;
   text-decoration:  none;
+  padding-left: 5px;
 }
 li a:hover {
   background-color: #555;
