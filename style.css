@@ -44,12 +44,11 @@ nav ul {
   height: 100%;
 }
 nav ul a {
+  padding-top: 50px;
   padding: 0;
   text-decoration: none;
 }
-ul {
-  padding-top: 500px;
-}
+
 li {
   padding: 5px;
 }
