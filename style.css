@@ -54,6 +54,9 @@ li {
   text-align: left;
   border-top: 1px solid #555;
 }
+li:last-child {
+  border-bottom: 1px solid #555;
+}
 li a {
   display: block;
   color: #000;
