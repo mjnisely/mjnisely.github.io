@@ -60,7 +60,7 @@ li:last-child {
 li a {
   display: block;
   color: #000;
-  text-decoration:  none;
+  text-decoration: none;
   padding-left: 5px;
 }
 li a:hover {
