@@ -47,10 +47,13 @@ nav ul a {
   padding: 0;
   text-decoration: none;
 }
-
+ul {
+  border: 1px solid #555;
+}
 li {
   line-height: 25px;
   text-align: left;
+  border-bottom: 1px solid #555;
 }
 li a {
   display: block;
