@@ -50,6 +50,7 @@ nav ul a {
 
 li {
   line-height: 25px;
+  text-align: right;
 }
 li a {
   display: block;
