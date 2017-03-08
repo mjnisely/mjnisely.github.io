@@ -57,7 +57,7 @@ li {
   text-align: left;
   border-bottom: 1px solid #555;
 }
-li:first-child {
+li a:first-child {
   border-top: 1 px solid #555;
 }
 li a {
