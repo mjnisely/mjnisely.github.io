@@ -40,7 +40,6 @@ nav {
 nav ul {
   margin: 0;
   padding-top: 150px;
-  padding-left: 3px;
   list-style-type: none;
   width: 125px;
   height: 100%;
@@ -51,6 +50,7 @@ nav ul a {
 }
 li {
   line-height: 25px;
+  left-padding: 3px;
   text-align: left;
   border-top: 1px solid #555;
 }
@@ -64,7 +64,7 @@ li a {
 }
 li a:hover {
   background-color: #555;
-  color:blue
+  color: white;
 }
 p.small{
   line-height: 10px;
