@@ -41,6 +41,7 @@ nav ul {
   margin: 0;
   padding-top: 150px;
   padding-left: 3px;
+  border: 1px solid #555;
   list-style-type: none;
   width: 125px;
   height: 100%;
@@ -48,9 +49,6 @@ nav ul {
 nav ul a {
   padding: 0;
   text-decoration: none;
-}
-ul {
-  border: 1px solid #555;
 }
 li {
   line-height: 25px;
