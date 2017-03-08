@@ -19,10 +19,13 @@ a:visited {
   color: rgb(45, 89, 134);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+body {
+  margin: 0;
+}
 nav {
-  margin-bottom: 10px !important;
-  margin-top: 0px !important;
-  height: 100%;
+  padding 0 20px;
+  background-color: #f1f1f1;
+  height: 100vh;
   position: fixed;
 }
 nav ul {
