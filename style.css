@@ -39,7 +39,8 @@ nav {
 }
 nav ul {
   margin: 0;
-  padding-top: 0px;
+  padding-top: 150px;
+  padding-left: 0px;
   list-style-type: none;
   width: 125px;
   height: 100%;
