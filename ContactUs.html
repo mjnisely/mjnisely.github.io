@@ -22,16 +22,16 @@
     <p style="text-align:center;">Please enter the information below and someone will contact you <br>
       within the next 48 hours with a possible solution</p>
     <center>
-    <form>
+    <form name="ContactForm" action="/action_page_post.php" onsubmit="return validateContactForm()" method="post">
         First Name:<br>
         <input type="text" name="firstName"><br>
         Last Name:<br>
         <input type="text" name="lastName"><br>
         Email Address:<br>
-        <input type="text" name="lastName"><br>
-        <input type="radio" name="problem" value="Question"> Question<br>
+        <input type="text" name="emailAddress"><br>
+        <input type="radio" name="question" value="Question"> Question<br>
         <input type="radio" name="problem" value="Problem"> Problem<br>
-        <input type="radio" name="problem" value="Order Status"> Order Status<br>
+        <input type="radio" name="orderStatus" value="Order Status"> Order Status<br>
         <textarea name="comments"> Please leave a comment </textarea><br>
         <input type="reset" value="Reset"><input type="submit" value="Submit">
     </form>
