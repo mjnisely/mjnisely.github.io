@@ -5,8 +5,8 @@ function validateContactForm() {
   var emailAddress = cform.elements["emailAddress"].value;
   var question = cform.elements["question"].value;
   var problem = cform.elements["problem"].value;
-  var orderStatus = cform.elements["orderStatues"].value;
-  var comment = cform.elements["comment"].value;
+  var orderStatus = cform.elements["orderStatus"].value;
+  var comment = cform.elements["comments"].value;
 
   if(fname == "") {
     alert("First Name must be filled out");
