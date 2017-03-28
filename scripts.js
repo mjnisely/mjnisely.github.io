@@ -1,11 +1,12 @@
 function validateContactForm() {
-  var fname = document.forms["ContactForm"]["firstName"].value;
-  var lname = document.forms["ContactForm"]["lastName"].value;
-  var emailAddress = document.forms["ContactForm"]["emailAddress"].value;
-  var question = document.forms["ContactForm"]["question"].value;
-  var problem = document.forms["ContactForm"]["problem"].value;
-  var orderStatus = document.forms["ContactForm"]["orderStatues"].value;
-  var comment = document.forms["ContactForm"]["comment"].value;
+  var cform = document.getElementById("contact_form")
+  var fname = cform.elements["firstName"].value;
+  var lname = cform.elements["lastName"].value;
+  var emailAddress = cform.elements["emailAddress"].value;
+  var question = cform.elements["question"].value;
+  var problem = cform.elements["problem"].value;
+  var orderStatus = cform.elements["orderStatues"].value;
+  var comment = cform.elements["comment"].value;
 
   if(fname == "") {
     alert("First Name must be filled out");
@@ -25,4 +26,9 @@ function validateContactForm() {
   } else {
     return true;
   }
+}
+
+window.onload = initDate;
+function initDate() {
+
 }
