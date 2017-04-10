@@ -64,13 +64,8 @@ li {
   line-height: 25px;
   text-align: left;
   border-top: 2px solid #555;
-  color: rgb(121, 166, 210);
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-li: hover {
-  background-color: #555;
-  color: white;
-}
+
 li:last-child {
   border-bottom: 2px solid #555;
 }
