@@ -37,12 +37,26 @@ function initDate() {
   if(dd<10) {
       dd='0'+dd
   }
-
   if(mm<10) {
       mm='0'+mm
   }
-
   today = mm+'/'+dd+'/'+yyyy;
-
   document.getElementById('today_date').innerHTML = today;
+}
+
+fucntion theDropdown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if(!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for(i = 0; i<dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
