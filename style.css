@@ -76,9 +76,10 @@ li a {
   color: rgb(121, 166, 210);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-li a:hover {
+li a:hover .dropdown-content{
   background-color: #555;
   color: white;
+  display: block;
 }
 p.small{
   line-height: 10px;
