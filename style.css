@@ -73,6 +73,8 @@ li a {
   display: block;
   color: #000;
   text-decoration: none;
+  color: rgb(121, 166, 210);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 li a:hover {
   background-color: #555;
