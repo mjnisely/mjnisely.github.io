@@ -66,6 +66,8 @@ li {
   line-height: 25px;
   text-align: left;
   border-top: 2px solid #555;
+  color: rgb(45, 89, 134);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 li:last-child {
@@ -75,8 +77,6 @@ li a {
   display: block;
   color: #000;
   text-decoration: none;
-  color: rgb(45, 89, 134);
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 li a:hover {
   background-color: #555;
