@@ -94,18 +94,6 @@ li.dropbtn:hover > .dropdown-content, .dropdown-content:hover {
 li.dropbtn {
   position: relative;
 }
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -128,6 +116,6 @@ li.dropbtn {
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-.dropdown:hover .dropdown-content {
+.dropbtn:hover .dropdown-content {
     display: block;
 }
