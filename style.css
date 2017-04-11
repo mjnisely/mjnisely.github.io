@@ -118,7 +118,8 @@ li.dropbtn {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #555;
+    color: white;
 }
 .dropbtn:hover .dropdown-content {
     display: block;
