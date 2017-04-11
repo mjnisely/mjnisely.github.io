@@ -86,6 +86,12 @@ p.small{
 td:hover {
   background-color: rgb(121, 166, 210)
 }
+li.dropbtn:hover > .dropdown-content, .dropdown-content:hover {
+  display: block;
+}
+li.dropbtn {
+  position: relative;
+}
 .dropdown {
     float: left;
     overflow: hidden;
@@ -105,6 +111,9 @@ td:hover {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding-left: 0;
+    left: 128px;
+    top: 0;
 }
 .dropdown-content a {
     float: none;
