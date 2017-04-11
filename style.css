@@ -104,9 +104,6 @@ li.dropbtn {
     padding-left: 0;
     left: 128px;
     top: 0;
-    bottom: 10;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: rgb(45, 89, 134);
 }
 .dropdown-content a {
     float: none;
