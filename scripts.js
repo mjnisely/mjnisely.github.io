@@ -43,7 +43,3 @@ function initDate() {
   today = mm+'/'+dd+'/'+yyyy;
   document.getElementById('today_date').innerHTML = today;
 }
-
-fucntion theDropdown() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
