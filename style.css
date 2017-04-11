@@ -103,7 +103,8 @@ li.dropbtn {
     z-index: 1;
     padding-left: 0;
     left: 128px;
-    top: 10;
+    top: 0;
+    bottom: 10;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: rgb(45, 89, 134);
 }
