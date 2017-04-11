@@ -77,7 +77,7 @@ li a {
   display: block;
   color: #000;
   text-decoration: none;
-  color: rgb(121, 166, 210);
+  color: rgb(45, 89, 134);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 li a:hover {
@@ -114,7 +114,6 @@ li.dropbtn {
     text-decoration: none;
     display: block;
     text-align: left;
-    color: rgb(45, 89, 134);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .dropdown-content a:hover {
