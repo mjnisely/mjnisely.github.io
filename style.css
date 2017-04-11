@@ -1,5 +1,7 @@
 body {
   background-color: #E5E1D7;
+  color: rgb(117,117,117);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 h1 {
   color: #D65F15;
