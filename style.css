@@ -118,4 +118,7 @@ li.dropbtn {
 }
 .dropbtn:hover .dropdown-content {
     display: block;
+    top: 0;
+    left: 128px;
+    padding-left: 0;
 }
