@@ -130,7 +130,7 @@ ul.slides {
   margin: 0px;
   list-style-type: none;
 }
-.slide {
+ul.slide {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -144,7 +144,7 @@ ul.slides {
   transition: opacity 1s;
 }
 
-.showing {
+ul.slide showing {
   opacity: 1;
   z-index: 2;
 }
