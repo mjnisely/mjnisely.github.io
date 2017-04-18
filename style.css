@@ -123,14 +123,14 @@ li.dropbtn {
 .dropbtn:hover .dropdown-content {
     display: block;
 }
-ul.slides {
+#slides {
   position: relative;
   height: 300px;
   padding: 0px;
   margin: 0px;
   list-style-type: none;
 }
-ul.slide {
+slide {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -138,13 +138,14 @@ ul.slide {
   height: 100%;
   opacity: 0;
   z-index: 1;
-  -webit-transition: opacity 1s;
+
+  -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
 
-ul.slide showing {
+showing {
   opacity: 1;
   z-index: 2;
 }
