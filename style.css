@@ -123,9 +123,6 @@ li.dropbtn {
 .dropbtn:hover .dropdown-content {
     display: block;
 }
-.date {
-  text-align: center;
-}
 * {box-sizing: border-box;}
 .mySlides{
   padding: 0;
