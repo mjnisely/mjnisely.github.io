@@ -129,6 +129,7 @@ li.dropbtn {
 }
 .mySlides div {
   padding: 0;
+  padding-left: 0;
 }
 .today_date div {
   padding-left: 0px;
