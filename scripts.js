@@ -49,7 +49,7 @@ showSlides();
 
 function showSlides() {
   var i;
-  var slides = document.getElementByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides");
   for(i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
