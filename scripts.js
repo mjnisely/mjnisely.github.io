@@ -45,7 +45,7 @@ function initDate() {
 }
 
 var slideIndex = 0;
-showSlides();
+
 
 function showSlides() {
   var i;
@@ -58,3 +58,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); //Change ever 2 sseconds
 }
+showSlides();
