@@ -133,6 +133,9 @@ li.dropbtn {
 .numbertext{
   text-align: center;
 }
+.text {
+  text-align: center;
+}
 .slideshow-container {
   max-width: 225px;
   padding: 0;
