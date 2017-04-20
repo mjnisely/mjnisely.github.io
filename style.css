@@ -33,7 +33,7 @@ p{
   padding-top: 10px;
 }
 div {
-  padding-left: 125px;
+  padding-left: 0px;
 }
 nav {
   margin: 0;
@@ -129,7 +129,6 @@ li.dropbtn {
 }
 .mySlides div {
   padding: 0;
-  padding-left: 0;
 }
 .today_date div {
   padding-left: 0px;
