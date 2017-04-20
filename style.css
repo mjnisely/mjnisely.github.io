@@ -135,7 +135,7 @@ li.dropbtn {
   display: none;
 }
 .today_date div {
-  padding: 0px;
+  padding-left: 0px;
 }
 .text {
   text-align: center;
